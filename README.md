@@ -23,3 +23,16 @@ Because the model can eventually produce actions for a physical robot, model out
 ## Security
 
 The project will use camera observations, robot-state information, demonstrations, datasets, and trained model checkpoints during development. We will collect only the visual and robot data needed for training and evaluation and will avoid intentionally recording personally identifiable information in our datasets. Limiting data collection may reduce the diversity of real-world training data available to the model, so we will use simulation and controlled environments where possible rather than increasing dataset size at the expense of privacy.
+
+## 5. Ethics, Licensing, Attribution, and AI Use
+
+The team’s complete privacy, security, licensing, attribution, and AI-use statement is available in [Ethics_Statement.md](Ethics_Statement.md).
+
+### Attribution summary
+
+- Team-authored design materials: Joshua Jerin and Krrish Thakku Suresh; advisor Huu Tri Nguyen.
+- Project repository and MIT license: https://github.com/joshuajerin/Senior-Design
+- Planned software sources: Python, SQLite, PyTorch, MuJoCo, NumPy, Pinocchio, Pydantic, pytest, Hypothesis, and statsmodels. Exact source links and licensing obligations are recorded in `Ethics_Statement.md`.
+- Candidate model sources: Octo, openpi, and OpenVLA. No candidate is represented as a selected dependency or distributed model.
+- No adapted external code, dataset, URDF/mesh, or creative asset is present in the inspected documentation-only repository. Any future addition must include source, author, version, license, restrictions, and required notice before merge.
+- `Design_Diagrams/Peer_Review_Notes.md` is an internal rubric audit, not external peer feedback.
